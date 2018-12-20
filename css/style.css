@@ -93,8 +93,8 @@ a {
 	text-decoration: none;
 	color: black;
 }
-.button {
 
+.button {
 	border: solid;
 	border-color: #8FBC8F;
   padding: 8px;
@@ -142,29 +142,36 @@ ul {
 
 article {
 	display: flex;
-	flex-flow: row-reverse nowrap;
-	justify-content: space-around;
+	flex-flow: row nowrap;
+	justify-content: space-background;
 	align-items: center;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 article h3 {
 	margin: 10px;
 	flex: 1;
 	text-align: center;
-} 
+	order: 2;
+}
 
 article img {
 	margin: 10px;
-	flex: 1;
+
+	align-items: center;
+	order: 1;
 }
 
 article div {
 	margin: 10px;
-	flex: 1;
+	width: 100px;
+	order: 1;
 }
 
 article p {
 	margin: 10px;
 	flex: 1;
+	text-align: justify;
+	order: 3;
+	width: 30%
 }
