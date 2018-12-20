@@ -60,7 +60,7 @@ header {
 }
 
 section {
-	margin:auto;
+	margin: auto;
 	width: 70%;
 	margin-bottom: 2%;
 	font-size: 20px;
@@ -84,9 +84,8 @@ h2{
 
 h3 {
 	font-size: 25px;
-	font-weight: 500;
+	font-weight: bold;
 	color: #FFA07A;
-	padding: 2%;
 	text-align: left;
 }
 
@@ -95,7 +94,7 @@ a {
 	color: black;
 }
 .button {
-	
+
 	border: solid;
 	border-color: #8FBC8F;
   padding: 8px;
@@ -134,35 +133,38 @@ ul {
 	width:100px;
 }
 
+
+
+
+
 /* ------flexbox------- */
 
 
 article {
 	display: flex;
 	flex-flow: row-reverse nowrap;
-	justify-content: center;
-	width: 90%;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
 }
 
 article h3 {
-	width: 20%;
-	margin-top: 20px;
+	margin: 10px;
+	flex: 1;
 	text-align: center;
-}
+} 
 
 article img {
-	width: 15%;
-	padding: 0 5% 5% 5%;
-	margin-top: 20px;
+	margin: 10px;
+	flex: 1;
 }
 
 article div {
-	width: 15%;
-	padding: 0 5% 5% 5%;
-	margin-top: 20px;
+	margin: 10px;
+	flex: 1;
 }
 
 article p {
-	width: 60%;
-	margin-top: 20px;
+	margin: 10px;
+	flex: 1;
 }
