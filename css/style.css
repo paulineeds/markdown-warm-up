@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-color: white;
+	background-image: url("../img/handmadepaper.png");
 	font-family: 'Major Mono Display', monospace;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -56,15 +56,13 @@ table {
 header {
 	margin: auto;
 	width: 80%;
-	background-color: white;
 	color:#8FBC8F;
 }
 
 section {
 	margin:auto;
-	width: 80%;
+	width: 70%;
 	margin-bottom: 2%;
-	background-color: white;
 	font-size: 20px;
 }
 
@@ -97,7 +95,7 @@ a {
 	color: black;
 }
 .button {
-	background-color: white;
+	
 	border: solid;
 	border-color: #8FBC8F;
   padding: 8px;
@@ -139,76 +137,32 @@ ul {
 /* ------flexbox------- */
 
 
-.git {
-	display:flex;
-	flex-direction: row-reverse;
-	align-items: center;
-	width: 65%;
-	padding: 2%;
-	margin: auto;
+article {
+	display: flex;
+	flex-flow: row-reverse nowrap;
+	justify-content: center;
+	width: 90%;
 }
 
-.git p {
-	text-align: justify;
-	width: 110%;
-
+article h3 {
+	width: 20%;
+	margin-top: 20px;
+	text-align: center;
 }
 
-.git img {
+article img {
+	width: 15%;
+	padding: 0 5% 5% 5%;
+	margin-top: 20px;
+}
+
+article div {
+	width: 15%;
+	padding: 0 5% 5% 5%;
+	margin-top: 20px;
+}
+
+article p {
 	width: 60%;
-	padding:3%;
-}
-
-.html {
-	display:flex;
-	flex-direction: row-reverse;
-	align-items: center;
-	width:65%;
-	padding: 2%;
-	margin:auto;
-}
-
-.html p {
-	text-align: justify;
-	justify-content: flex-end;
-	width: 100%;
-}
-.html img {
-	width: 60%;
-	padding:3%;
-}
-
-.CSS {
-	display:flex;
-	flex-direction: row-reverse;
-	align-items: center;
-	width: 65%;
-	padding: 2%;
-	margin:auto;
-	text-align: justify;
-}
-
-.CSS img {
-	width:60%;
-	padding: 3%;
-}
-
-.JavaScript {
-	display:flex;
-	flex-direction: row-reverse;
-	align-items: center;
-	width:65%;
-	padding: 2%;
-	margin: auto;
-	text-align: justify;
-}
-
-.php {
-	display:flex;
-	flex-direction: row-reverse;
-	align-items: center;
-	width:65%;
-	padding: 2%;
-	margin: auto;
-	text-align: justify;
+	margin-top: 20px;
 }
