@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+	background-color: white;
+	font-family: 'Major Mono Display', monospace;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+ol, ul {
+	list-style: none;
+	text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+	margin: auto;
+	width: 80%;
+	background-color: white;
+	color:#8FBC8F;
+}
+
+section {
+	margin:auto;
+	width: 80%;
+	margin-bottom: 2%;
+	background-color: white;
+	font-size: 20px;
+}
+
+h1 {
+text-align: center;
+letter-spacing: 15px;
+font-size: 70px;
+font-weight: bolder;
+padding: 20px;
+}
+
+h2{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 500;
+	color: #FFA07A;
+	padding: 2%;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+.button {
+	background-color: white;
+	border: solid;
+	border-color: #8FBC8F;
+  padding: 8px;
+	text-align: center;
+	width: 8%;
+	font-size: 15px;
+}
+
+.intro {
+	align-items: center;
+	text-align: justify;
+	width: 50%;
+	color: #FFB6C1;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+
+ul li {
+	display: inline-block;
+	padding: 2%;
+	margin: 3%;
+}
+
+ul {
+	text-align: center;
+}
+
+.opsomming {
+	text-align: center;
+	font-size: 15px;
+
+}
+.opsomming div {
+ display:inline-block;
+	width:100px;
+}
+
+/* ------flexbox------- */
+
+
+.git {
+	display:flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	width: 65%;
+	padding: 2%;
+	margin: auto;
+}
+
+.git p {
+	text-align: justify;
+	width: 110%;
+
+}
+
+.git img {
+	width: 60%;
+	padding:3%;
+}
+
+.html {
+	display:flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	width:65%;
+	padding: 2%;
+	margin:auto;
+}
+
+.html p {
+	text-align: justify;
+	justify-content: flex-end;
+	width: 100%;
+}
+.html img {
+	width: 60%;
+	padding:3%;
+}
+
+.CSS {
+	display:flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	width: 65%;
+	padding: 2%;
+	margin:auto;
+	text-align: justify;
+}
+
+.CSS img {
+	width:60%;
+	padding: 3%;
+}
+
+.JavaScript {
+	display:flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	width:65%;
+	padding: 2%;
+	margin: auto;
+	text-align: justify;
+}
+
+.php {
+	display:flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	width:65%;
+	padding: 2%;
+	margin: auto;
+	text-align: justify;
+}
