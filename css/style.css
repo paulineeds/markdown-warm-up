@@ -143,9 +143,7 @@ ul {
 article {
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: space-background;
 	align-items: center;
-	/* margin: 0 auto; */
 }
 
 article h3 {
@@ -157,7 +155,6 @@ article h3 {
 
 article img {
 	margin: 10px;
-
 	align-items: center;
 	order: 1;
 }
