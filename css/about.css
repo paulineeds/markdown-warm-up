@@ -29,25 +29,32 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+/* body------------------------------------------------------------------------- */
 
 body {
 	line-height: 1;
 	background-image: url("../img/handmadepaper.png");
 	font-family: 'Major Mono Display', monospace;
 	font-family: 'Open Sans Condensed', sans-serif;
+  margin:auto;
+  width:911px;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 	text-decoration: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -66,6 +73,7 @@ section {
 	font-size: 20px;
 }
 
+/* titels ---------------------------------------------------------------------- */
 h1 {
 text-align: center;
 letter-spacing: 15px;
@@ -80,14 +88,9 @@ h2{
 	text-align: center;
 	padding-bottom: 10px;
 	margin-top: 20px;
+  color: #FFB6C1;
 }
-
-h3 {
-	font-size: 25px;
-	font-weight: bold;
-	color: #FFA07A;
-	text-align: left;
-}
+/* button ------------------------------------------------------------------------- */
 
 a {
 	text-decoration: none;
@@ -103,72 +106,37 @@ a {
 	font-size: 15px;
 }
 
-.intro {
-	align-items: center;
-	text-align: justify;
-	width: 50%;
-	color: #FFB6C1;
-	font-size: 25px;
-	margin-bottom: 50px;
-}
-
-
-ul li {
+ul.nav li {
 	display: inline-block;
 	padding: 10px;
 	margin: 3%;
 }
 
-ul {
-	text-align: center;
+ul.nav {
+  text-align: center;
 }
-
-.opsomming {
-	text-align: center;
-	font-size: 15px;
-
-}
-.opsomming div {
- display:inline-block;
-	width:100px;
-}
-
-
-
-
-
-/* ------flexbox------- */
-
 
 article {
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
+  width: 600px;
+  text-align: center;
+  border: solid;
+  border-color: #FFA07A;
+  border-width: medium;
+  margin: 0 auto;
+  margin-top: 7%;
 }
 
-article h3 {
-	margin: 10px;
-	flex: 1;
-	text-align: center;
-	order: 2;
+p {
+  font-size: 25px;
+  padding: 3%;
 }
 
-article img {
-	margin: 10px;
-	align-items: center;
-	order: 1;
-}
-
-article div {
-	margin: 10px;
-	width: 100px;
-	order: 1;
-}
-
-article p {
-	margin: 10px;
-	flex: 1;
-	text-align: justify;
-	order: 3;
-	width: 30%
+ul.lijst {
+  font-size: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-bottom: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
